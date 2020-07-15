@@ -23,7 +23,7 @@ func main() {
 
 	for {
 		rec := records[idx]
-		fmt.Printf("Gocha! %s ( %s / %s ) at %s!\n\n", rec[1], rec[2], rec[3], rec[0])
+		fmt.Printf("Gotcha! %s ( %s / %s ) at %s!\n\n", rec[1], rec[2], rec[3], rec[0])
 		fmt.Print("Need another one? [y/N] ")
 		fmt.Scanf("%s", &cmd)
 		if strings.ToLower(cmd) == "y" {
